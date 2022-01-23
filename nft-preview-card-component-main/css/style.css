@@ -1,0 +1,145 @@
+html {
+    font-size: 1px;
+    background: hsl(217, 54%, 11%);
+    font-family: 'Outfit', sans-serif;
+    font-weight: 300;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-top: 35rem;
+    width: 360rem;
+    height: 610rem;
+    background: hsl(216, 50%, 16%);
+    border-radius: 20rem;
+}
+
+img {
+    width: 320rem;
+    height: 340rem;
+    padding: 20rem;
+    border-radius: 20rem;
+    z-index: 3;
+}
+
+img:hover{
+    z-index: 1;
+}
+
+.eye{
+    width: 50rem;
+    height: 50rem;
+    position: absolute;
+    top: 180rem;
+    left: 50%;
+    margin-left: -45rem;
+    z-index: 2;
+}
+
+.blue-filter{
+    width: 320rem;
+    height: 340rem;
+    margin: 20rem;
+    z-index: 2;
+    border-radius: 20rem;
+    background: hsl(178, 100%, 50%);
+    position: absolute;
+    top: 36rem;
+    left: 50%;
+    margin-left: -160rem;
+    opacity: 0.5;
+    /*  */
+}
+
+h1 {
+    color: white;
+    font-size: 25rem;
+    font-weight: 600;
+    /* font-family: 'Outfit', sans-serif; */
+    padding: 0 20rem;
+    margin: 0;
+    margin-top: 10rem;
+}
+
+h1:hover{
+    color: hsl(178, 100%, 50%);
+}
+
+hr {
+    border: 0;
+    /* clear: both; */
+    width: 90%;
+    background-color: hsl(215, 32%, 27%);
+    height: 0.5rem;
+}
+
+p {
+    color: rgb(146, 166, 172);
+    font-size: 18rem;
+    padding: 0 20rem;
+
+}
+
+.updates{
+    justify-content: space-between;
+}
+
+.margin-bottom {
+    margin-bottom: 0;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    padding: 0 20rem;
+
+}
+
+.col {
+    display: flex;
+    margin: 0;
+    align-items: center;
+    padding-top: 0;
+}
+
+.avatar {
+    width: 35rem;
+    height: 35rem;
+    border-radius: 25rem;
+    border: 1px solid white;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 2px;
+}
+
+.icons {
+    width: 17rem;
+    height: 17rem;
+    padding: 0;
+}
+
+
+.col p {
+    padding: 0;
+    padding-left: 5rem;
+}
+
+.blue {
+    color: #83F7F9;
+    font-weight: 400;
+}
+
+.center {
+    justify-content: center;
+}
+
+.author{
+    color: white;
+    font-weight: bold;
+}
+
+.author:hover{
+    color: hsl(178, 100%, 50%);
+}

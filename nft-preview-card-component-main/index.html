@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit&family=Titillium+Web:wght@200&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Frontend Mentor | NFT preview card component</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <img src="images/image-equilibrium.jpg" alt="Cube Photo" />
+      <img class="eye" src="./images/icon-view.svg" alt="dont know what">
+      <h1>Equilibrium #3429</h1>
+
+      <p class="margin-bottom">Our Equilibrium collection promotes balance and calm.</p>
+
+      <div class="row updates">
+        <div class="col">
+          <img
+            src="./images/icon-ethereum.svg"
+            alt="icon-ethereum"
+            class="icons"
+          />
+          <p class="blue">
+            <span>0.041</span>ETH
+          </p>
+         
+        </div>
+        <div class="col right">
+          <img
+            src="./images/icon-clock.svg"
+            alt="icon-clock"
+            class="icons"
+          />
+          <p>
+            <span>3</span>days left
+          </p>
+        </div>
+      </div>
+
+      <!-- Why the hr tag isn't working -->
+      <hr />
+
+      <div class="row center">
+        <img class="avatar" src="images/image-avatar.png" alt="Avatar" />
+        <p>Creation of <span class="author">Jules Wyvern</span></p>
+      </div>
+    </div>
+    <div class="blue-filter"></div>
+  </body>
+</html>
