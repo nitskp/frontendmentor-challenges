@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display&display=swap');
+
+html, body {
+    background-image: url("../images/pattern-background-mobile.svg");
+    box-sizing: border-box;
+}
+
+.order-summary {
+    margin: 50px auto;
+    background: white;
+    border-radius: 20px;
+}
+
+.img-container img {
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.description {
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.description__heading {
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+    margin: 5px auto;
+}
+
+.description__text{
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 20px;
+    color: rgb(124, 122, 122);
+    margin: 0 auto;
+}
+
+.order-cost{
+    display: flex;
+    margin: 0 50px;
+    margin-bottom: 30px;
+    align-items: center;
+    background: hsl(225, 100%, 98%);
+    border-radius: 20px;
+}
+
+.order-cost__icon{
+    width: 40px;
+    height: 40px;
+    margin: 0 15px;
+}
+
+.order-detail{
+    text-align: left;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+.order-detail h3{
+    font-weight: 700;
+    font-size: 17px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    padding: 0 0;
+}
+
+.order-detail p{
+    font-weight: 500;
+    font-size: 15px;
+    margin: 0;
+    margin-bottom: 10px;
+    padding: 0;
+    color: rgb(124, 122, 122);
+}
+
+.order-change-link{
+    justify-self: end;
+    margin-left:  40px;
+}
+
+.order-change-link:hover{
+    text-decoration: none;
+    opacity: 0.7;
+}
+
+.payment-button{
+    display: block;
+    margin: 10px auto;
+    width: 80%;
+    background: hsl(223, 91%, 47%);
+    color: white;
+    padding: 15px 20px;
+    border: hsl(223, 91%, 47%);
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: 700;
+    box-shadow: rgba(189, 187, 187,0.3) 1px 12px 1px 1px;
+}
+
+.payment-button:hover{
+    opacity: 0.7;
+}
+
+.order-cancel-button{
+    display: block;
+    margin: 10px auto;
+    width: 80%;
+    background: transparent;
+    color: rgb(155, 152, 152);
+    padding: 10px 20px;
+    border: transparent;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.order-cancel-button:hover{
+    color: black
+}
+
+@media (min-width: 400px) {
+    html, body {
+        background-image: url("../images/pattern-background-desktop.svg") no-repeat;
+    }
+    .order-summary {
+        width: 400px;
+        height: fit-content;
+    }
+}
