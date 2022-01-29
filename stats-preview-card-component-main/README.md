@@ -34,7 +34,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Stat Component Github code]()
+- Solution URL: [Stat Component Github code](https://github.com/nitskp/frontendmentor-challenges/tree/master/stats-preview-card-component-main)
 - Live Site URL: [live site]()
 
 ## My process
